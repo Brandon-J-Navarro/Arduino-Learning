@@ -41,9 +41,15 @@ void setup() {
 // is immediately called again, over and over again.
 void loop() {
 /*
+<<<<<<< HEAD
   First version of our loop.  It works, but could be shorter, more efficient and
   more understandable.  Commented out but left in to show how we can incrementally
   improve our code.
+=======
+  // First version of our loop.  It works, but could be shorter, more efficient and
+  // more understandable.  Commented out but left in to show how we can incrementally
+  // improve our code.
+>>>>>>> c0897fc24c2359f32e47863036e17714784784b9
 
   byte switch_setting;
 
@@ -59,9 +65,15 @@ void loop() {
 */
 
 /*
+<<<<<<< HEAD
   Second version of our loop.  Better.  Define the variable and set it in the same statement
   and then use the else statement to show that we should always execute ONE of our two
   actions.
+=======
+  // Second version of our loop.  Better.  Define the variable and set it in the same statement
+  // and then use the else statement to show that we should always execute ONE of our two
+  // actions.
+>>>>>>> c0897fc24c2359f32e47863036e17714784784b9
 
   byte switch_setting = digitalRead(CABIN_LIGHTS_SWITCH_PIN);
 
@@ -83,4 +95,8 @@ void loop() {
   } else {
     digitalWrite(CABIN_LIGHTS_PIN, LOW);  // Switch is OFF, turn off lander's light
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c0897fc24c2359f32e47863036e17714784784b9
